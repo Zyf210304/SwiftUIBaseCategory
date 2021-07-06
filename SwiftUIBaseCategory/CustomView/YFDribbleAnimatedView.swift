@@ -7,76 +7,11 @@
 
 import SwiftUI
 
-struct YFDribbleAnimatedView: View {
-    
-    @State var rotateBall = false
-    @State var showPopUp = false
-    
-    @Environment(\.colorScheme) var scheme
-    
-    var body: some View {
-        
-        VStack {
-            
-            Toggle(isOn: $rotateBall) {
-                
-                Text("Rotate Ball")
-            }
-            .padding()
-            .padding(.horizontal, 10)
-            
-            Button {
-                
-                withAnimation(.spring()) {
-                    showPopUp.toggle()
-                }
-            } label: {
-                
-                Text("Show PopUp")
-                    .foregroundColor(.black)
-                    .padding(.vertical, 10)
-                    .padding(.horizontal, 25)
-                    .background(scheme == .dark ? Color.black : Color.white)
-                    .cornerRadius(8)
-                    .shadow(color: Color.primary.opacity(0.1), radius: 5, x: 5, y: 5)
-                    .shadow(color: Color.primary.opacity(0.1), radius: 5, x: -5, y: -5)
-            }
-        }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .overlay(
-        
-            ZStack {
-            
-                if showPopUp {
-                    
-                    Color.primary.opacity(0.2)
-                        .ignoresSafeArea()
-                        .onTapGesture {
-                            
-                            withAnimation(.spring()) {
-                                showPopUp.toggle()
-                            }
-                        }
-                    
-                    DribbleAnimatedView(showPopUp: $showPopUp, rotateBall: $rotateBall)
-                }
-            
-            }
-        )
-    }
-    
-}
-
-struct YFDribbleAnimatedView_Previews: PreviewProvider {
-    static var previews: some View {
-        YFDribbleAnimatedView()
-    }
-}
 
 
 
 //Dribble Loader
-struct DribbleAnimatedView: View {
+struct YFDribbleAnimatedView: View {
     
     @Environment(\.colorScheme) var scheme
     
@@ -108,7 +43,7 @@ struct DribbleAnimatedView: View {
                 )
                 .offset(y: 35)
                 .opacity(animateBall ? 1 : 0)
-            Image("dirbble")
+            Image(systemName: "network")
                 .resizable()
                 .clipShape(Circle())
                 .aspectRatio(contentMode: .fit)
