@@ -11,6 +11,7 @@
 		02DA4F65269435890083052D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA4F64269435890083052D /* ContentView.swift */; };
 		02DA4F672694358A0083052D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02DA4F662694358A0083052D /* Assets.xcassets */; };
 		02DA4F6A2694358A0083052D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02DA4F692694358A0083052D /* Preview Assets.xcassets */; };
+		02DA4F72269435CD0083052D /* Color_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA4F71269435CD0083052D /* Color_extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		02DA4F64269435890083052D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02DA4F662694358A0083052D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02DA4F692694358A0083052D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02DA4F71269435CD0083052D /* Color_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		02DA4F61269435890083052D /* SwiftUIBaseCategory */ = {
 			isa = PBXGroup;
 			children = (
+				02DA4F70269435A40083052D /* Extension */,
 				02DA4F62269435890083052D /* SwiftUIBaseCategoryApp.swift */,
 				02DA4F64269435890083052D /* ContentView.swift */,
 				02DA4F662694358A0083052D /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				02DA4F692694358A0083052D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02DA4F70269435A40083052D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				02DA4F71269435CD0083052D /* Color_extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +105,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = YF;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
@@ -139,6 +151,7 @@
 			files = (
 				02DA4F65269435890083052D /* ContentView.swift in Sources */,
 				02DA4F63269435890083052D /* SwiftUIBaseCategoryApp.swift in Sources */,
+				02DA4F72269435CD0083052D /* Color_extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
