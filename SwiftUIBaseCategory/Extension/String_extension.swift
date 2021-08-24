@@ -12,6 +12,11 @@ extension String {
     var length: Int {
         return count
     }
+    
+    ///是否包含字符串
+    func containsIgnoringCase(find: String) -> Bool {
+        return self.range(of: find, options: .caseInsensitive) != nil
+    }
 
     subscript (i: Int) -> String {
         return self[i ..< i + 1]
