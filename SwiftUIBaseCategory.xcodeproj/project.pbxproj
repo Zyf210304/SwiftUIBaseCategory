@@ -23,6 +23,7 @@
 		02DA4F8926944BE60083052D /* YFTabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA4F8826944BE60083052D /* YFTabButton.swift */; };
 		02DA4F8B26944D980083052D /* YFWaveFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA4F8A26944D980083052D /* YFWaveFrom.swift */; };
 		02DA4F8D26944E0B0083052D /* YFRefreshableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA4F8C26944E0B0083052D /* YFRefreshableScrollView.swift */; };
+		02FA20E526DDC10900396A75 /* YFOffsetPageTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FA20E426DDC10900396A75 /* YFOffsetPageTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		02DA4F8826944BE60083052D /* YFTabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFTabButton.swift; sourceTree = "<group>"; };
 		02DA4F8A26944D980083052D /* YFWaveFrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFWaveFrom.swift; sourceTree = "<group>"; };
 		02DA4F8C26944E0B0083052D /* YFRefreshableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFRefreshableScrollView.swift; sourceTree = "<group>"; };
+		02FA20E426DDC10900396A75 /* YFOffsetPageTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFOffsetPageTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		02DA4F7B26943F5F0083052D /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				02FA20E426DDC10900396A75 /* YFOffsetPageTabView.swift */,
 				02DA4F7C26943F8E0083052D /* YFAutoSizingTF.swift */,
 				02DA4F7E269441EC0083052D /* YFDribbleAnimatedView.swift */,
 				02DA4F80269443560083052D /* YFPageControl.swift */,
@@ -210,6 +213,7 @@
 				02DA4F7A26943EAF0083052D /* View_extension.swift in Sources */,
 				02DA4F72269435CD0083052D /* Color_extension.swift in Sources */,
 				02DA4F7826943C180083052D /* Macro_base.swift in Sources */,
+				02FA20E526DDC10900396A75 /* YFOffsetPageTabView.swift in Sources */,
 				02DA4F7D26943F8E0083052D /* YFAutoSizingTF.swift in Sources */,
 				02DA4F872694497E0083052D /* String_extension.swift in Sources */,
 			);
