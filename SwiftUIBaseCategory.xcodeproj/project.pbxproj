@@ -24,6 +24,7 @@
 		02DA4F8B26944D980083052D /* YFWaveFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA4F8A26944D980083052D /* YFWaveFrom.swift */; };
 		02DA4F8D26944E0B0083052D /* YFRefreshableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA4F8C26944E0B0083052D /* YFRefreshableScrollView.swift */; };
 		02FA20E526DDC10900396A75 /* YFOffsetPageTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FA20E426DDC10900396A75 /* YFOffsetPageTabView.swift */; };
+		02FA20E926DDD22000396A75 /* YFWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FA20E826DDD22000396A75 /* YFWaveView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		02DA4F8A26944D980083052D /* YFWaveFrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFWaveFrom.swift; sourceTree = "<group>"; };
 		02DA4F8C26944E0B0083052D /* YFRefreshableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFRefreshableScrollView.swift; sourceTree = "<group>"; };
 		02FA20E426DDC10900396A75 /* YFOffsetPageTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFOffsetPageTabView.swift; sourceTree = "<group>"; };
+		02FA20E826DDD22000396A75 /* YFWaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFWaveView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				02DA4F8826944BE60083052D /* YFTabButton.swift */,
 				02DA4F8A26944D980083052D /* YFWaveFrom.swift */,
 				02DA4F8C26944E0B0083052D /* YFRefreshableScrollView.swift */,
+				02FA20E826DDD22000396A75 /* YFWaveView.swift */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				02DA4F81269443560083052D /* YFPageControl.swift in Sources */,
 				02DA4F85269447720083052D /* YFBlurView.swift in Sources */,
 				02DA4F83269444560083052D /* Shap_extension.swift in Sources */,
+				02FA20E926DDD22000396A75 /* YFWaveView.swift in Sources */,
 				02DA4F8926944BE60083052D /* YFTabButton.swift in Sources */,
 				02DA4F7A26943EAF0083052D /* View_extension.swift in Sources */,
 				02DA4F72269435CD0083052D /* Color_extension.swift in Sources */,
