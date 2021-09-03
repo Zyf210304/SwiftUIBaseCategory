@@ -23,6 +23,7 @@
 		02DA4F8926944BE60083052D /* YFTabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA4F8826944BE60083052D /* YFTabButton.swift */; };
 		02DA4F8B26944D980083052D /* YFWaveFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA4F8A26944D980083052D /* YFWaveFrom.swift */; };
 		02DA4F8D26944E0B0083052D /* YFRefreshableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA4F8C26944E0B0083052D /* YFRefreshableScrollView.swift */; };
+		02E9109A26E1BACF002F8736 /* YFCapsuleIndicators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E9109926E1BACF002F8736 /* YFCapsuleIndicators.swift */; };
 		02FA20E526DDC10900396A75 /* YFOffsetPageTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FA20E426DDC10900396A75 /* YFOffsetPageTabView.swift */; };
 		02FA20E926DDD22000396A75 /* YFWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FA20E826DDD22000396A75 /* YFWaveView.swift */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,7 @@
 		02DA4F8826944BE60083052D /* YFTabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFTabButton.swift; sourceTree = "<group>"; };
 		02DA4F8A26944D980083052D /* YFWaveFrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFWaveFrom.swift; sourceTree = "<group>"; };
 		02DA4F8C26944E0B0083052D /* YFRefreshableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFRefreshableScrollView.swift; sourceTree = "<group>"; };
+		02E9109926E1BACF002F8736 /* YFCapsuleIndicators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFCapsuleIndicators.swift; sourceTree = "<group>"; };
 		02FA20E426DDC10900396A75 /* YFOffsetPageTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFOffsetPageTabView.swift; sourceTree = "<group>"; };
 		02FA20E826DDD22000396A75 /* YFWaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFWaveView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,6 +131,7 @@
 				02DA4F8A26944D980083052D /* YFWaveFrom.swift */,
 				02DA4F8C26944E0B0083052D /* YFRefreshableScrollView.swift */,
 				02FA20E826DDD22000396A75 /* YFWaveView.swift */,
+				02E9109926E1BACF002F8736 /* YFCapsuleIndicators.swift */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			files = (
 				02DA4F8D26944E0B0083052D /* YFRefreshableScrollView.swift in Sources */,
 				02DA4F65269435890083052D /* ContentView.swift in Sources */,
+				02E9109A26E1BACF002F8736 /* YFCapsuleIndicators.swift in Sources */,
 				02DA4F63269435890083052D /* SwiftUIBaseCategoryApp.swift in Sources */,
 				02DA4F8B26944D980083052D /* YFWaveFrom.swift in Sources */,
 				02DA4F7F269441EC0083052D /* YFDribbleAnimatedView.swift in Sources */,
