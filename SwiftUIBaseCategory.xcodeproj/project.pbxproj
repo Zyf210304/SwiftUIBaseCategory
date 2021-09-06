@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02CD27A526E603A90085D5A7 /* YFHeartLike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CD27A426E603A90085D5A7 /* YFHeartLike.swift */; };
 		02DA4F63269435890083052D /* SwiftUIBaseCategoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA4F62269435890083052D /* SwiftUIBaseCategoryApp.swift */; };
 		02DA4F65269435890083052D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA4F64269435890083052D /* ContentView.swift */; };
 		02DA4F672694358A0083052D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02DA4F662694358A0083052D /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02CD27A426E603A90085D5A7 /* YFHeartLike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFHeartLike.swift; sourceTree = "<group>"; };
 		02DA4F5F269435890083052D /* SwiftUIBaseCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBaseCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02DA4F62269435890083052D /* SwiftUIBaseCategoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBaseCategoryApp.swift; sourceTree = "<group>"; };
 		02DA4F64269435890083052D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				02FA20E426DDC10900396A75 /* YFOffsetPageTabView.swift */,
 				02DA4F7C26943F8E0083052D /* YFAutoSizingTF.swift */,
 				02DA4F7E269441EC0083052D /* YFDribbleAnimatedView.swift */,
+				02CD27A426E603A90085D5A7 /* YFHeartLike.swift */,
 				02DA4F80269443560083052D /* YFPageControl.swift */,
 				02DA4F84269447720083052D /* YFBlurView.swift */,
 				02DA4F8826944BE60083052D /* YFTabButton.swift */,
@@ -213,6 +216,7 @@
 				02DA4F63269435890083052D /* SwiftUIBaseCategoryApp.swift in Sources */,
 				02DA4F8B26944D980083052D /* YFWaveFrom.swift in Sources */,
 				02DA4F7F269441EC0083052D /* YFDribbleAnimatedView.swift in Sources */,
+				02CD27A526E603A90085D5A7 /* YFHeartLike.swift in Sources */,
 				02DA4F81269443560083052D /* YFPageControl.swift in Sources */,
 				02DA4F85269447720083052D /* YFBlurView.swift in Sources */,
 				02DA4F83269444560083052D /* Shap_extension.swift in Sources */,
